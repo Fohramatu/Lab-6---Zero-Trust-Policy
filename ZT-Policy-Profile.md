@@ -12,7 +12,7 @@ The Policy Enforcement Point is the component that physically controls access to
 2. Core Principle Application
 Chosen Principle: Verify Explicitly
 
-The Policy Engine enforces Verify Explicitly by checking every access request against real-time conditions instead of trusting anything by default. For example, if an HR employee tries to access the Employee PII Database, the Policy Engine checks their identity, device health, and location. Even if the user has the right credentials, the PE will deny access if the login attempt comes from outside California. This ensures that access is based on verified signals, not assumptions or past approvals.
+The Policy Engine enforces Verify Explicitly by checking every access request against real-time conditions instead of trusting anything by default. For example, if an HR employee tries to access the Employee PII Database, the Policy Engine checks their identity, device health, and location. Even if the user has the right credentials, the PE will deny access if the login attempt comes from unverified location. This ensures that access is based on verified signals, not assumptions or past approvals.
 
 3. Simplified Policy Table
 Access Policy for HR Employee PII Database
